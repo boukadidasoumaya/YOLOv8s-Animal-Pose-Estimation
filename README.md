@@ -38,7 +38,7 @@ BATCH_SIZE = 32
 
 The training process includes data augmentation techniques like mosaic (0.4) and handles learning rate scheduling automatically.
 
-Evaluation
+## Evaluation
 The trained model is evaluated on the validation set, producing metrics including:
 
 Precision-Recall curves for both bounding box detection and pose estimation
@@ -47,7 +47,7 @@ Visual comparison of ground truth and predictions
 Results
 The model demonstrates successful detection of horse keypoints across various poses, lighting conditions, and scenarios. Visual results and evaluation metrics are available in the notebook.
 
-Usage
+## Usage
 To train the model:
 
 Prepare your dataset in the required format
